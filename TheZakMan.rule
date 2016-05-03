@@ -2,6 +2,10 @@
 #  ******* RULE: TheZakMan Top Rules *******
 #############################################
 #
+# 						DATE: 23:00 02/05/2016
+# https://github.com/thezakman/TheZakManRules/
+#
+#
 #            ooo"
 #             $$
 #             $$
@@ -36,9 +40,7 @@
 #              $$                                """""ooo$ooo"
 #              $$
 #             o$$           											                                                                   
-#															                2016 (C)
-#
-#
+#															  2016 (C)
 
 
 
@@ -81,6 +83,8 @@ l $2$0$1$4
 l $2$0$1$5
 l $2$0$1$6
 l $2$0$1$7
+
+
 
 
 ######################################
@@ -345,6 +349,16 @@ $s
 ^1
 # add the to the beginning of each combination
 ^e ^h ^t
+
+############################
+##  Weird people append   ##
+############################
+
+# append @1234 to the end of each combination
+$@ $1 $2 $3 $4
+
+# append @123 to the end of each combination
+$@ $1 $2 $3
 
 #########################
 ## l33t1fing this shit ##
